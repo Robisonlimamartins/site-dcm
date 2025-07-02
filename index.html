@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DCM Manutenção Geral</title>
+  <style>
+    :root {
+      --azul: #0a2e51;
+      --dourado: #c59d1f;
+      --cinza-claro: #f5f5f5;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--cinza-claro);
+      color: #333;
+    }
+    header {
+      background-color: var(--azul);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2em;
+    }
+    header p {
+      font-size: 1.1em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--azul);
+      border-left: 5px solid var(--dourado);
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color: var(--dourado);
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .galeria img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .contato p, .contato a {
+      font-size: 1.1em;
+    }
+    footer {
+      background-color: var(--azul);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: var(--azul);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo DCM">
+    <h1>DCM Manutenção Geral</h1>
+    <p>Manutenção de confiança, resultado garantido.</p>
+  </header>
+
+  <section>
+    <h2>Sobre a DCM</h2>
+    <p>Com mais de 30 anos de experiência, a DCM Manutenção Geral oferece serviços de qualidade com honestidade, segurança e compromisso. Nossa missão é proporcionar soluções eficazes em manutenção com foco na confiança e na satisfação dos nossos clientes.</p>
+
+    <h3>Valores</h3>
+    <ul>
+      <li>Honestidade e transparência</li>
+      <li>Comprometimento com o cliente</li>
+      <li>Excelência nos serviços</li>
+      <li>Responsabilidade e segurança</li>
+      <li>Aperfeiçoamento contínuo</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Serviços</h2>
+    <ul>
+      <li>Elétrica residencial e predial</li>
+      <li>Hidráulica</li>
+      <li>Reformas e pintura</li>
+      <li>Pequenos reparos</li>
+      <li>Instalações em geral</li>
+      <li>Jardinagem</li>
+      <li>Construção civil</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Galeria de Serviços</h2>
+    <div class="galeria">
+      <img src="galeria1.jpg" alt="Serviço 1">
+      <img src="galeria2.jpg" alt="Serviço 2">
+      <img src="galeria3.jpg" alt="Serviço 3">
+      <img src="galeria4.jpg" alt="Serviço 4">
+    </div>
+  </section>
+
+  <section class="contato">
+    <h2>Contato</h2>
+    <p><strong>Telefone:</strong> (41) 99119-2287</p>
+    <p><strong>WhatsApp:</strong> (41) 99581-4016</p>
+    <p><strong>E-mail:</strong> <a href="mailto:robisonmartins@dcmmanutencao.com">robisonmartins@dcmmanutencao.com</a></p>
+    <p><strong>Endereço:</strong> Rua Olindo Sequinel, 1108 – Capão Raso – Curitiba/PR – CEP 81150-120</p>
+    <p><strong>Instagram:</strong> @dcmmanutencao</p>
+    <p><strong>Facebook:</strong> facebook.com/dcmmanutencao</p>
+    <h3>Localização</h3>
+    <iframe src="https://www.google.com/maps?q=Olindo+Sequinel+1108,+Cap%C3%A3o+Raso,+Curitiba,+PR&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DCM Manutenção Geral. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
